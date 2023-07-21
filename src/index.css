@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Weather{
+    border: 1px solid black;
+}
+.city{
+    color: beige;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+.temp{
+    color: beige;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.descrip{
+    color: beige;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    
+}
+.add{
+    color: beige;
+    position: relative;
+    left: -150px;
+
+}
+.time{
+    color: beige;
+    position: relative;
+    left: -150px;
 }
